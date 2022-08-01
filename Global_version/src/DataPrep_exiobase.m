@@ -1,4 +1,4 @@
-%% This is code for calculating capital depreciation
+%% This is code for preparing EXIOBASE data
 
 % Created by: Quanliang Ye
 % Created date: 19/10/2019
