@@ -169,14 +169,14 @@ save('pop_chn','pop_r','pop_u','pop_to','meta_pop')
 %% adjust MRIO tables
 clear
 
-load MRIO_1978_2017
-load cpi
+load MRIO_1978_2017 % MRIO tables from Wang et al. (2016)
+load cpi %  CPI of provinces and China
 load meta
 load final_expenditure
 load expt_impt
 load vd_info
 load pop_chn
-load ki_chn
+load ki_chn %  capital investment data of provinces in China
 
 r = 31;
 s = 42;
@@ -388,7 +388,7 @@ clear
 load MRIOT_CHN_42sectors
 load pop_chn % population
 load c_c2mrio % concordance
-load F_chn % direct co2 emissions
+load F_chn % direct co2 emissions, from CEADs
 
 ts = 2017-1994;
 r = 31;
