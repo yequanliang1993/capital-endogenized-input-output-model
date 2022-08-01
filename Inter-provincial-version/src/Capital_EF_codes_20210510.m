@@ -5,7 +5,7 @@
 % Email Add.: yequanliang1993@gmail.com
 
 
-%% data preparation
+%% data preparation (which can be skipped when runing in your own PC
 clear
 r = 31;
 s = 42;
