@@ -1,5 +1,11 @@
-%% Data preparations: exiobase data
+%% This is code for calculating capital depreciation
 
+% Created by: Quanliang Ye
+% Created date: 19/10/2019
+% Email add.: yequanliang1993@gmail.com
+% Main Contributor: dr. Ranran Wang, CML, Leiden University
+
+%% Data preparations: exiobase data
 IOpath = 'D:\\MRIO\\Exiobase\\v3_6\\IOT_%d_pxp.mat';
 r=49;
 s=200;
