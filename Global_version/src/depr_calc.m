@@ -1,3 +1,11 @@
+%% This is code for the function of calculating capital depreciation
+
+% Created by: Quanliang Ye
+% Created date: 19/10/2019
+% Email add.: yequanliang1993@gmail.com
+% Main Contributor: dr. Ranran Wang, CML, Leiden University
+
+%% 
 function cd_ss = depr_calc(c,Ki,depr,c_axp,c_ixs,Yk,cfc,t,n)
 s=200;
 r=49;
