@@ -1,3 +1,11 @@
+%% This is code for preparing capital data from EU KLEMS, WORLDKLEMS, and PWT9.1
+
+% Created by: Quanliang Ye
+% Created date: 19/10/2019
+% Email add.: yequanliang1993@gmail.com
+% Main Contributor: dr. Ranran Wang, CML, Leiden University
+
+%%
 clear
 r=49;
 ts=21;
