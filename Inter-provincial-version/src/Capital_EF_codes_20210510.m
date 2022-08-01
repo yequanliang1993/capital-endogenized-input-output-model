@@ -1,3 +1,10 @@
+%% This is the Matlab code to run inter-provincial capital endogenized MRIO model for China.
+
+% Created by: Quanliang Ye
+% Created date: 10/05/2021
+% Email Add.: yequanliang1993@gmail.com
+
+
 %% data preparation
 clear
 r = 31;
