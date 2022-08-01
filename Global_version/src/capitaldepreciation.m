@@ -1,5 +1,13 @@
+%% This is code for calculating capital depreciation
+
+% Created by: Quanliang Ye
+% Created date: 19/10/2019
+% Email add.: yequanliang1993@gmail.com
+% Main Contributor: dr. Ranran Wang, CML, Leiden University
+
+
+%%
 clear
-% cd('D:\WP\CapitalImpacts\Datasets');
 cd('J:\MATLAB\Data\Capital_Endogenization\New folder')
 load('KLEMS.mat')
 load('Yk.mat');
@@ -25,7 +33,6 @@ ts=21;
 
 t0=t0a;
 %%   D_S 1
-% cd('D:\WP\CapitalImpacts');
 cd('J:\MATLAB\Data\Capital_Endogenization\New folder')
 cd_ss = zeros(r,ts,ts,s,s);
 c=find(t0(:,2)==1);   % from which dataset, data1 or data2
